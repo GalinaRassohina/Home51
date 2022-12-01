@@ -32,10 +32,12 @@ int CountEvenNumbers (int [] array)
 }
 
 //Клиентский код
-int count_of_elements = 8;
+int count_of_elements = 4;
 int min_value_of_array = 100;
 int max_value_of_array = 1000;
 int[] my_array = new int[count_of_elements];
 NumberArray(my_array, min_value_of_array, max_value_of_array);
+	Console.WriteLine(PrintArray(my_array));
+	Console.Write( CountEvenNumbers(my_array));
 
 
